@@ -1,0 +1,161 @@
+
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*Navigation bar*/
+nav{
+    background-color:#ffffffba;
+    padding: 1em 5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav a{
+    padding: 2em;
+}
+.nav-logo{
+   float: left;
+   color: #40e0d0;
+}
+.nav-links{
+    float: right;
+    color: #000000;
+}
+.nav-logo a{
+    color: #40e0d0;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.nav-logo a:hover{
+    text-decoration: none;
+    color: #40e0d0;    
+}
+.nav-links a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+}
+.nav-links a:hover{
+    text-decoration: none;
+    color: #40e0d0;
+}
+
+/*This style below contains only the landing page
+
+There would be comment at where it stopped*/
+/*Landing page styling starts here*/
+
+.landing-page{
+    background-image: url(../images/index1.jpg);
+    background-size: cover;
+    min-height: 95vh;
+    height: 100%;
+    padding:4em 5em ;
+
+
+}
+.landing-page p{
+    font-size: 45px;
+    color: #fff;
+    text-justify: bottom;
+}
+.landpg-btn{
+    border: #ffa3ae;
+}
+.landpg-btn a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    
+}
+.landpg-btn:hover{
+   zoom: 105%;
+    
+}
+.landpg-btn{
+   padding: 12px;
+   background-color: #ffa3ae;
+}
+/* Landing page styling stops here*/
+#about{
+    margin: 3em;
+}
+.about-image{
+    float: left;
+    width: 30%;
+    height: 50%;
+    margin: 2em;
+    margin-top: 6px;
+}
+.about-text{
+    padding: 10px 5px;
+    font-size: 20px;
+    text-align: justify;
+    color: #000000;
+    
+}
+.winteraideme{
+    text-align: center;
+    margin-bottom: 12px;
+    padding: 2em;
+}
+#aidmevictims{
+    min-height: 75vh;
+    padding: 5em 5em ;
+    margin: 10x;
+}
+/* This consists of the card styling*/
+.cards{
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 #c3cadf;
+    margin: auto;
+
+    text-align: center;
+    padding: 12px;
+    cursor: pointer;
+  }  
+  .title {
+    color: #000000;
+    font-size: 20px;
+  }
+  .dtn-btn{
+      margin: 10px;
+      text-decoration: none;
+      border:5px solid #40e0d0;
+      background-color:#40e0d0;
+      border-radius: 5%;
+      
+      
+  }
+  .dtn-btn a{
+    font-weight: bold;
+      color: white;
+  }
+  .dtn-btn a:hover{
+      text-decoration: none;
+      color: black;
+  }
+  
+  /* The style below contains that of the contact form*/
+
+
+ 
+/*This below is the styling for details before donation
+.donation{
+    margin: 30px;
+    padding: 3em 3em ;
+}
+.pop-up-showing-details{*/
+
+    footer{
+        background-color: #40e0d0;
+        text-align: center;
+        padding: 10px;
+        font-weight: bold;
+    }
