@@ -9,7 +9,7 @@ html{
 
 /*Navigation bar*/
 nav{
-    background-color:#ffffffba;
+    background-color:#ffffff;
     padding: 1em 5em;
     position: fixed;
     top: 0;
@@ -85,6 +85,7 @@ There would be comment at where it stopped*/
 /* Landing page styling stops here*/
 #about{
     margin: 3em;
+    min-height: 60vh;
 }
 .about-image{
     float: left;
@@ -108,17 +109,29 @@ There would be comment at where it stopped*/
 #aidmevictims{
     min-height: 75vh;
     padding: 5em 5em ;
-    margin: 10x;
+    margin: 0;
+    background-color: whitesmoke;
+}
+#aidmevictims img{
+    width: 70%;
+    height: 150%;
+}
+#aidmevictims img:hover{
+    opacity: 0.5;
 }
 /* This consists of the card styling*/
 .cards{
+    justify-content: space-evenly;
     background-color: #fff;
-    box-shadow: 0 4px 8px 0 #c3cadf;
+    box-shadow: 0 4px 8px 0 #c3dadf;
     margin: auto;
-
+    margin-bottom: 15px;
     text-align: center;
-    padding: 12px;
     cursor: pointer;
+    padding-right: 12px;
+    padding-left: 12px;
+    min-width: 200px;
+    
   }  
   .title {
     color: #000000;
@@ -129,9 +142,7 @@ There would be comment at where it stopped*/
       text-decoration: none;
       border:5px solid #40e0d0;
       background-color:#40e0d0;
-      border-radius: 5%;
-      
-      
+      border-radius: 5%; 
   }
   .dtn-btn a{
     font-weight: bold;
@@ -140,6 +151,26 @@ There would be comment at where it stopped*/
   .dtn-btn a:hover{
       text-decoration: none;
       color: black;
+  }
+  .vwmore{
+      margin: 4em;
+      text-align: center;
+      background-color: #fff;
+      cursor: pointer;
+      padding: 5px;
+     border: 1px solid azure;
+      
+  }
+  #volunteer{
+      min-height: 45vh;
+      
+    }
+      
+  #volunteer h2{
+      text-align: center;
+      padding-bottom: 12px;
+      padding-top: 12px;
+      color: #808080;
   }
   
   /* The style below contains that of the contact form*/
