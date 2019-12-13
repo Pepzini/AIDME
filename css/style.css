@@ -9,14 +9,13 @@ html{
 
 /*Navigation bar*/
 nav{
-    background-color:#ffffff;
+    background-color:#ffffffca;
     padding: 1em 5em;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
-
 }
 
 nav a{
