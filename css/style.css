@@ -100,6 +100,33 @@ There would be comment at where it stopped*/
     color: #000000;
     
 }
+#fewbuttons{
+    text-align: center;
+    font-size: 16px;
+    min-height: 50vh;
+}
+#fewbuttons .container{
+    
+}
+.clk button{
+    margin: 2em;
+    margin-left: 2em;
+    background-color: #40e0d0;
+    border: 3px solid #40e0d0;
+    padding: 7px;
+}
+.clk{
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 #c3dadf;
+    margin: 1em;
+    padding: 2em 5em;
+    cursor: pointer;
+    padding-right: 12px;
+    padding-left: 12px;
+    min-width: 200px;
+    min-height: 100px;
+    
+}
 .winteraideme h1{
     text-align: center;
     color: #40e0d0;
