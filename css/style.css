@@ -9,14 +9,16 @@ html{
 
 /*Navigation bar*/
 nav{
-    background-color:#f5f5f5;
+    background-color:#ffffff;
     padding: 1em 5em;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    overflow: hidden;
+    z-index: 1000;
+
 }
+
 nav a{
     padding: 2em;
 }
@@ -38,7 +40,7 @@ nav a{
     color: #40e0d0;    
 }
 .nav-links a{
-    font-size: 18px;
+    font-size: 19px;
     text-decoration: none;
     color: #000000;
 }
@@ -102,6 +104,7 @@ There would be comment at where it stopped*/
     
 }
 #fewbuttons{
+    margin: 2em;
     text-align: center;
     font-size: 16px;
     min-height: 50vh;
@@ -109,10 +112,12 @@ There would be comment at where it stopped*/
 
 .clk button{
     margin: 2em;
+    margin-top: 5em;
     margin-left: 2em;
     background-color: #40e0d0;
     border: 3px solid #40e0d0;
     padding: 7px;
+    font-weight: bold;
 }
 .clk{
     background-color: #fff;
@@ -122,9 +127,8 @@ There would be comment at where it stopped*/
     cursor: pointer;
     padding-right: 12px;
     padding-left: 12px;
-    min-width: 200px;
-    min-height: 100px;
-    border-style: 
+    min-width: 250px;
+    height: 300px;
 }
 .winteraideme h1{
     text-align: center;
