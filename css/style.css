@@ -103,7 +103,7 @@ There would be comment at where it stopped*/
 .winteraideme h1{
     text-align: center;
     color: #40e0d0;
-    font-size: 30px;
+    font-size: 40px;
 }
 .winteraideme p{
     text-align: center;
@@ -161,8 +161,8 @@ There would be comment at where it stopped*/
       text-align: center;
       background-color: #fff;
       cursor: pointer;
-      padding: 5px;
-     border: 1px solid azure;
+      border: 1px solid azure;
+      font-size: 22px;
       
   }
   #volunteer{
