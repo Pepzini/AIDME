@@ -84,33 +84,37 @@ There would be comment at where it stopped*/
 }
 /* Landing page styling stops here*/
 #about{
-    margin: 3em;
+    margin: 2em;
     min-height: 60vh;
 }
 .about-image{
     float: left;
     width: 30%;
-    height: 50%;
-    margin: 2em;
-    margin-top: 6px;
+    height: 20%;
+    margin: 1em;
 }
 .about-text{
-    padding: 10px 5px;
+    padding: 7px 5px;
     font-size: 20px;
     text-align: justify;
     color: #000000;
     
 }
-.winteraideme{
+.winteraideme h1{
     text-align: center;
-    margin-bottom: 12px;
-    padding: 2em;
+    color: #40e0d0;
+    font-size: 30px;
+}
+.winteraideme p{
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
 }
 #aidmevictims{
     min-height: 75vh;
-    padding: 5em 5em ;
+    padding: 2em 4em ;
     margin: 0;
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
 }
 #aidmevictims img{
     width: 70%;
@@ -125,7 +129,7 @@ There would be comment at where it stopped*/
     background-color: #fff;
     box-shadow: 0 4px 8px 0 #c3dadf;
     margin: auto;
-    margin-bottom: 15px;
+    margin-left: 2em;
     text-align: center;
     cursor: pointer;
     padding-right: 12px;
