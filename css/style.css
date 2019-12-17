@@ -9,7 +9,7 @@ html{
 
 /*Navigation bar*/
 nav{
-    background-color:#ffffffca;
+    background-color:#ffffff;
     padding: 1em 5em;
     position: fixed;
     top: 0;
@@ -54,21 +54,16 @@ There would be comment at where it stopped*/
 /*Landing page styling starts here*/
 
 .landing-page{
-    background-image: url(../images/index1.jpg);
+    background-image: url(../images/header.jpg);
     background-size: cover;
     min-height: 95vh;
-    height: 100%;
-    padding:4em 5em ;
-
-
+    padding:2em 5em ;
 }
 .landing-page p{
-    font-size: 45px;
+    font-size: 60px;
     color: #fff;
-    text-justify: bottom;
-}
-.landpg-btn{
-    border: #ffa3ae;
+    padding-top: 6em;
+    font-weight: bold;
 }
 .landpg-btn a{
     text-decoration: none;
@@ -76,23 +71,28 @@ There would be comment at where it stopped*/
     color: #fff;
     
 }
+.landpg-btn a:hover{
+    text-decoration: none;
+    color: #000000;
+}
 .landpg-btn:hover{
-   zoom: 105%;
+   text-decoration: none;
     
 }
 .landpg-btn{
+   border: 1px solid #40e0d0;
    padding: 12px;
-   background-color: #ffa3ae;
+   background-color: #40e0d0;
 }
 /* Landing page styling stops here*/
 #about{
-    margin: 2em;
+    margin: em;
     min-height: 60vh;
 }
 .about-image{
     float: left;
     width: 40%;
-    height: 305px;
+    height: 25vw;
     margin: 1em;
 }
 .about-text{
@@ -154,11 +154,10 @@ There would be comment at where it stopped*/
 }
 /* This consists of the card styling*/
 .cards{
-    justify-content: space-evenly;
     background-color: #fff;
     box-shadow: 0 4px 8px 0 #c3dadf;
     margin: auto;
-    margin-left: 2em;
+    margin-left: 1.5em;
     margin-bottom: 2em;
     text-align: center;
     cursor: pointer;
@@ -196,15 +195,21 @@ There would be comment at where it stopped*/
       
   }
   #volunteer{
-      min-height: 45vh;
-      
+      min-height: 45vh;   
+    }
+
+    #volunteer button{
+        background-color: #40e0d0;
+        padding: 12px;
+        border: 1px solid #40e0d0;
+        color: white;
     }
       
   #volunteer h2{
       text-align: center;
       padding-bottom: 12px;
       padding-top: 12px;
-      color: #808080;
+      color: #40e0d0;
   }
   
   /* The style below contains that of the contact form*/
