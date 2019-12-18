@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,11 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/responsive.css">
+    
     <title>aidMe</title>
+     <!--[if IE 7]>
+            <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+        <![endif]-->
 </head>
 
 <body>
@@ -27,9 +32,9 @@
             </div>
         </nav>
         <header class="landing-page">
-            
-         <p>
-               Decreasing mortality <br> in <span style="color: turquoise;">Nigeria</span>
+
+            <p>
+                Decreasing mortality <br> in <span style="color: turquoise;">Nigeria</span>
             </p>
             <button class="landpg-btn">
                 <a href="aidme-vitctims.html">
@@ -38,7 +43,8 @@
             </button>
         </header>
         <section id="about">
-            <img src="images/anotherhand.png" alt="Joining hands to help" class="about-image">
+            <img src="images/anotherhand.png" alt="Joining hands to help" 
+            class="about-image">
             <div class="about-text container mb-5 mt-5">
                 <h1 style="color: #96f7ed; text-align: center;">About Us</h1>
                 <p>
@@ -103,9 +109,9 @@
                         <!-- .section-header -->
                         <div class="row">
                             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                                <div class="cards">
-                                    <img src="images/unknown.png" alt="an unknown person">
-                                    <div class="card-words">
+                                <div class="card card text-center ">
+                                    <img src="images/victim1.jpg" class="card-image-top" alt="an unknown person">
+                                    <div class="card-body">
                                         <h4>Mr Mickey</h4>
                                         <p>Medical Condition:Chronic dysphegia</p>
                                         <div class="price-title">
@@ -126,7 +132,8 @@
                                             </div>
 
                                         </div>
-                                        <button class="dtn-btn"> <a href="donate.html">Donate Now</a></button>
+                                        <button class="dtn-btn" onclick="openForm()">
+                                            <a href="donate.html ">Donate Now</a></button>
                                     </div>
 
                                 </div>
@@ -134,104 +141,114 @@
                             </div>
                             <!-- .col-md-3 -->
                             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                                <div class="cards">
-                                    <img src="images/unknown.png" alt="an unknown person">
-                                    <h4>Mr Mickey</h4>
-                                    <p>Medical Condition:Chronic dysphegia</p>
-                                    <div>
-                                        <div class="price-title">
-                                            <div class="price-left">
-                                                <h5>Raised:<span>N500,000</span></h5>
+                                <div class="card card text-center">
+                                    <img src="images/vctim2.jpg" class="card-image-top" alt="an unknown person">
+                                    <div class="card-body">
+                                        <h4>Mr Mickey</h4>
+                                        <p>Medical Condition:Chronic dysphegia</p>
+                                        <div>
+                                            <div class="price-title">
+                                                <div class="price-left">
+                                                    <h5>Raised:<span>N500,000</span></h5>
+                                                </div>
+                                                <!-- .price-left -->
+                                                <div class="price-right">
+                                                    <h5>Raised:<span>N1,000,000</span></h5>
+                                                </div>
+                                                <!-- .price-left -->
                                             </div>
-                                            <!-- .price-left -->
-                                            <div class="price-right">
-                                                <h5>Raised:<span>N1,000,000</span></h5>
+                                            <!-- .price-title -->
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-success progress-bar-striped"
+                                                    role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                    aria-valuemax="100" style="width:50%; background-color: #0deed7;">
+                                                </div>
+                                                <!-- .progress-bar -->
                                             </div>
-                                            <!-- .price-left -->
-                                        </div>
-                                        <!-- .price-title -->
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-success progress-bar-striped"
-                                                role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                                                aria-valuemax="100" style="width:50%; background-color: #0deed7;">
-                                            </div>
-                                            <!-- .progress-bar -->
-                                        </div>
-                                        <!-- .progress -->
+                                            <!-- .progress -->
 
-                                        <button class="dtn-btn"><a href="donate.html">Donate Now</a></button>
+                                            <button class="dtn-btn" onclick="openForm()">
+                                                <a href="donate.html">Donate Now</a>
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <!-- .col-md-3 -->
                             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                                <div class="cards">
-                                    <img src="images/unknown.png" alt="an unknown person" class="img-responsive" />
-                                    <h4>Mr Mickey</h4>
-                                    <p>Medical Condition:Chronic dysphegia</p>
-                                    <div class="cause-content">
-                                        <div class="price-title">
-                                            <div class="price-left">
-                                                <h5>Raised:<span>N500,000</span></h5>
+                                <div class="card card text-center">
+                                    <img src="images/victim3.jpg" alt="an unknown person" class="img-responsive" />
+                                    <div class="card-body">
+                                        <h4>Mr Mickey</h4>
+                                        <p>Medical Condition:Chronic dysphegia</p>
+                                        <div class="cause-content">
+                                            <div class="price-title">
+                                                <div class="price-left">
+                                                    <h5>Raised:<span>N500,000</span></h5>
+                                                </div>
+                                                <!-- .price-left -->
+                                                <div class="price-right">
+                                                    <h5>Raised:<span>N1,000,000</span></h5>
+                                                </div>
+                                                <!-- .price-left -->
                                             </div>
-                                            <!-- .price-left -->
-                                            <div class="price-right">
-                                                <h5>Raised:<span>N1,000,000</span></h5>
+                                            <!-- .price-title -->
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar progress-bar-striped"
+                                                    role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                    aria-valuemax="100" style="width:50%; background-color: #0deed7;">
+                                                </div>
+                                                <!-- .progress-bar -->
                                             </div>
-                                            <!-- .price-left -->
+                                            <!-- .progress -->
+                                            <button class="dtn-btn" onclick="openForm()">
+                                                <a href="donate.html">Donate Now</a>
+                                            </button>
                                         </div>
-                                        <!-- .price-title -->
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar progress-bar-striped"
-                                                role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                                                aria-valuemax="100" style="width:50%; background-color: #0deed7;">
-                                            </div>
-                                            <!-- .progress-bar -->
-                                        </div>
-                                        <!-- .progress -->
-                                        <button class="dtn-btn"> <a href="donate.html" class="font-dec">Donate
-                                                Now</a></button>
                                     </div>
                                 </div>
                             </div>
                             <!-- .col-md-3 -->
                             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                                <div class="cards">
-                                    <img src="images/unknown.png" alt="an unknown person" class="img-responsive" />
-                                    <h4>Mr Mickey</h4>
-                                    <p>Medical Condition:Chronic dysphegia</p>
-                                    <div class="cause-content">
-                                        <div class="price-title">
-                                            <div class="price-left">
-                                                <h5>Raised:<span>N500,000</span></h5>
+                                <div class="card card text-center">
+                                    <img src="images/victim4.jpg" alt="an unknown person" class="img-responsive" />
+                                    <div class="card-body">
+                                        <h4>Mr Mickey</h4>
+                                        <p>Medical Condition:Chronic dysphegia</p>
+                                        <div class="cause-content">
+                                            <div class="price-title">
+                                                <div class="price-left">
+                                                    <h5>Raised:<span>N500,000</span></h5>
+                                                </div>
+                                                <!-- .price-left -->
+                                                <div class="price-right">
+                                                    <h5>Raised:<span>N1,000,000</span></h5>
+                                                </div>
+                                                <!-- .price-left -->
                                             </div>
-                                            <!-- .price-left -->
-                                            <div class="price-right">
-                                                <h5>Raised:<span>N1,000,000</span></h5>
+                                            <!-- .price-title -->
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar progress-bar-striped"
+                                                    role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                    aria-valuemax="100" style="width:50%; background-color: #0deed7;">
+                                                </div>
+                                                <!-- .progress-bar -->
                                             </div>
-                                            <!-- .price-left -->
+                                            <!-- .progress -->
+                                            <button class="dtn-btn" onclick="openForm()">
+                                                <a href="donate.html">Donate Now</a>
+                                            </button>
                                         </div>
-                                        <!-- .price-title -->
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar progress-bar-striped"
-                                                role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                                                aria-valuemax="100" style="width:50%; background-color: #0deed7;">
-                                            </div>
-                                            <!-- .progress-bar -->
-                                        </div>
-                                        <!-- .progress -->
-                                        <button class="dtn-btn"> <a href="donate.html">Donate Now</a></button>
                                     </div>
                                 </div>
+                                <!-- .col-md-4 -->
                             </div>
-                            <!-- .col-md-4 -->
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="vwmore">
-                View more
-            </div>
+                <div class="vwmore">
+                    View more
+                </div>
         </section>
         <section id="volunteer">
             <div class="container">
@@ -263,8 +280,8 @@
         </section>
         <footer>
             &copy; Niniola
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-facebook-f"></i>
+           
         </footer>
     </main>
     <script src="/js/bootstrap.min.js"></script>
