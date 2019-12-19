@@ -1,16 +1,17 @@
 
 body{
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 html{
     scroll-behavior: smooth;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
 
 /*Navigation bar*/
 nav{
-    background-color:#ffffff;
+    background-color:#effcfaba;
     padding: 1em 5em;
     position: fixed;
     top: 0;
@@ -123,8 +124,8 @@ There would be comment at where it stopped*/
   
 }
 .clk{
-    background-color: #f2fdfc;
-    margin: 1em;
+    
+    box-shadow:0 1px 3px 0 #93e7df;
     padding: 2em 5em;
     cursor: pointer;
     padding-right: 12px;
@@ -191,7 +192,9 @@ There would be comment at where it stopped*/
       
   }
   #volunteer{
-      min-height: 45vh;   
+      min-height: 45vh; 
+      
+        
     }
 
     #volunteer button{
@@ -207,21 +210,60 @@ There would be comment at where it stopped*/
       padding-top: 12px;
       color: #40e0d0;
   }
-  
-  /* The style below contains that of the contact form*/
 
-
- 
-/*This below is the styling for details before donation
-.donation{
-    margin: 30px;
-    padding: 3em 3em ;
+  .call-to-action{
+      background-color: #40e0d0;
+      padding: 2em 0;
+      font-size: 20px ;
+      text-align: center;
+      color: #ffffff;
+      font-weight: bold;
+  }
+.call-to-action a{
+    color: black;
 }
-.pop-up-showing-details{*/
+  .call-to-action a:hover{
+      text-decoration: none;
+      color: #000000;
+      
+  }
+  .call-to-action button{
+      background-color: #ffffff;
+      padding: 14px;
+      margin-left: 7em;
+      border: none;
+      text-align: center;
+      font-weight: bold;
+      margin: 1em;
 
-    footer{
-        background-color: #40e0d0;
-        text-align: center;
-        padding: 10px;
-        font-weight: bold;
-    }
+  }
+  .top-foot{
+      text-align: center;
+      margin: 0;
+      background-color: #4d5050;
+      color: #fff;
+      font-weight: normal;
+      font-size:18px;
+      padding-top: 20px;
+     
+  }
+  .top-foot a,h2,p{
+      padding: 10px;
+  }
+  .top-foot a{
+      text-decoration: none;
+      color: #ffffff;
+      padding: 12px;
+      top: 20px;
+  }
+  .top-foot a:hover{
+      text-decoration: none;
+      color: #40e0d0;
+  }
+  .bottom-footer{
+      background-color: #40e0d0;
+      padding: 10px;
+  }
+
+  
+    
