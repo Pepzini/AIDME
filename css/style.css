@@ -11,30 +11,29 @@ html{
 
 /*Navigation bar*/
 nav{
-    background-color:#effcfaba;
-    padding: 1em 5em;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
+
 }
+
 
 nav a{
     padding: 2em;
 }
-.nav-logo{
-   float: left;
-   color: #40e0d0;
-}
 .nav-links{
     float: right;
     color: #000000;
+    padding:1em ;
 }
-.nav-logo a{
-    color: #40e0d0;
-    font-size: 22px;
-    font-weight: bolder;
+.nav-logo img{
+    width:200px;
+    height:70px;
 }
 .nav-logo a:hover{
     text-decoration: none;
@@ -56,17 +55,23 @@ There would be comment at where it stopped*/
 /*Landing page styling starts here*/
 
 .landing-page{
-    background-image: url(../images/header.jpg);
+    background-image: url(../images/image.png);
     background-size: cover;
     min-height: 95vh;
     padding:2em 5em ;
+    border: 1px solid transparent;
 }
 .landing-page p{
     font-size: 60px;
     color: #fff;
-    padding-top: 6em;
+    padding-top: 5em;
     font-weight: bold;
+    -webkit-animation-name: lnd-pg-animate; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: lnd-pg-animate;
+    animation-duration: 4s;
 }
+
 .landpg-btn a{
     text-decoration: none;
     font-size: 20px;
@@ -93,12 +98,13 @@ There would be comment at where it stopped*/
 }
 .about-image{
     float: left;
-    width: 40%;
-    height: 25vw;
+    width: 30%;
+    height: 250px;
     margin: 1em;
 }
 .about-text{
-    padding: 7px 5px;
+    margin-right: 0;
+    padding: 5px 5px;
     font-size: 20px;
     text-align: justify;
     color: #000000;
@@ -193,7 +199,7 @@ There would be comment at where it stopped*/
   }
   #volunteer{
       min-height: 45vh; 
-      
+      vertical-align: middle;
         
     }
 
@@ -202,6 +208,7 @@ There would be comment at where it stopped*/
         padding: 12px;
         border: 1px solid #40e0d0;
         color: white;
+        bottom: 20px
     }
       
   #volunteer h2{
