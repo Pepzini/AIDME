@@ -10,42 +10,84 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/responsive.css">
-    
+
     <title>aidMe</title>
-     <!--[if IE 7]>
+    <!--[if IE 7]>
             <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
         <![endif]-->
 </head>
 
 <body>
     <main>
-        <nav>
-            <div class="nav-logo">
-                <a href="index.html">
-                   <img src="images/aidmelogo.png" alt="logo">  
+        <nav class="navbar navbar-expand-lg mb-5 px-2 py-2 ">
+            <div class="container-fluid">
+
+                <!-- logo -->
+                <a href="index.html" class="navbar-brand logo">
+                    <img src="images/aidmelogo.png" alt="aidme logo">
                 </a>
-            </div>
-            <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="#about">About Us</a>
-                <a href="#aidmevictims">aidMe-Vitctims</a>
-                <a href="#volunteer">Volunteer</a>
-            </div>
+                <!-- logo end -->
+                <!-- menu button -->
+                <button class="navbar-toggler" id="navbar-toggle" type="button" data-toggle="collapse"
+                    data-target="#nav">
+                    <i class="fa fa-bars" style="color: turquoise;"></i>
+                </button>
+                <!-- menu btn end -->
+                <!-- nav links -->
+
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link ">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#aidmevictims" class="nav-link">
+                                aidMe Victims
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#volunteer" class="nav-link">
+                                Volunteer
+                            </a>
+                        </li>
+
+                </div>
+                <!-- nav-link end -->
         </nav>
+        <!-- container end -->
+        </div>
+        <!-- end of nav menu -->
+
+
         <header class="landing-page">
-            <p>
-                Decreasing mortality <br> 
-                in <span style="color: turquoise;">Nigeria</span>
-            </p>
-            <button class="landpg-btn">
-                <a href="aidme-vitctims.html">
-                    Find aidMe Victims
-                </a>
-            </button>
+            <div class="container-fluid">
+                <div class="row">
+
+                    <p class="col-lg-12 col-md-6 col-sm-6">
+                        Decreasing mortality <br>
+                        in <span style="color: turquoise;">Nigeria</span>
+                    </p>
+                    
+                </div>
+                <button class="landpg-btn">
+                    <a href="aidme-vitctims.html">
+                        Find aidMe Victims
+                    </a>
+                </button>
+            </div>
         </header>
+
+        </header>
+
         <section id="about">
-            <img src="images/anotherhand.png" alt="Joining hands to help" 
-            class="about-image">
+            <img src="images/anotherhand.png" alt="Joining hands to help" class="about-image">
             <div class="about-text container mb-5 mt-5">
                 <h1 style="color: #96f7ed; text-align: center;">About Us</h1>
                 <p>
@@ -72,23 +114,23 @@
 
                             We need funds...Material things of any kind can also be donated.
                             <br>
-                            
 
-                            <i class="fa fa-money"></i>
 
-                            <br>
-                            <button> Donate to aidMe</button>
+                            <button class="donate-btn more-btn hvr-shutter-out-horizontal"> Donate to aidMe</button>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="clk">
+                        <div class="clk ">
                             Death attacks the young and old in Nigeria, due to
+
                             acute attacks and untreated diseases,
+
+                            save an adime victim today.
                             <br>
                             <button class="text-center"> Donate to Victims</button>
                         </div>
                     </div>
-                    <div class="col-lg-4  col-md-6 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="clk">
                             You can be part of the biggest move of the Nigeria.
 
@@ -256,6 +298,14 @@
                     View more
                 </div>
         </section>
+        <section class="anotherpics">
+            <img src="/images/handsforvolunteer.jpeg" alt="background" srcset="">
+            <div class="row">
+                <div class="col-lg-12 col-md-6 col-sm-6">
+                    Decreasing mortality in Nigeria
+                </div>
+            </div>
+        </section>
         <section id="volunteer">
             <div class="container">
                 <h2>Work with aidMe</h2>
@@ -264,7 +314,7 @@
 
                         <p>
                             From time to time we need volunteers to help carry out different
-                            operations such as accounting,bookkeeping,photographing, research and
+                            operations such as accounting,photographing, research and
                             so on.
                             <br>
                         </p>
@@ -274,7 +324,7 @@
                     <div class="col-lg-6 col-md-6 col-12">
                         <p>
                             In other to ensure authencity, we need medical personnels such as doctors,
-                            nurses and surgeons to work with us.
+                            nurses and surgeons to work with us. Join the team today.
                             <br>
                         </p>
 
@@ -285,9 +335,9 @@
             </div>
         </section>
         <section class="call-to-action">
-           JOIN THE MOVEMENT IN DECREASUNG MORTALITY RATE IN NIGERIA.
+            JOIN THE MOVEMENT IN DECREASUNG MORTALITY RATE IN NIGERIA.
 
-           <button><a href="#aidmevictims"> DONATE TO AN AIDME VICTIM</a> </button>
+            <button><a href="#aidmevictims"> DONATE TO AN AIDME VICTIM</a> </button>
         </section>
         <!--foot section-->
         <footer class="footer-area parallax">
@@ -299,21 +349,20 @@
                             <div class="footer-widgets">
                                 <h2>Address</h2>
                                 <p>17 Akinsanya Street, <br>
-                                     Beside FRSC road,<br>
-                                      Ojodu Berger.
-                                    </p>
-                              
-                                   <i class="fa fa-phone" aria-hidden="true"></i> 08109255374 <br>
-                                 <i class="fa fa-envelope" aria-hidden="true"></i> <a href="#">support@aidme.com</a>
+                                    Beside FRSC road,<br>
+                                    Ojodu Berger.
+                                </p>
 
-                             
+                                <i class="fa fa-phone" aria-hidden="true"></i> 08109255374 <br>
+                                <i class="fa fa-envelope" aria-hidden="true"></i> <a href="#">support@aidme.com</a>
+
+
                                 <!-- footer social link -->
-                                <div class="footer-social-link">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                <div class="footer-social-link" style="cursor: pointer;padding-left: 4px;">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
                                 </div>
                             </div>
                         </div>
@@ -322,11 +371,11 @@
                             <div class="footer-widgets">
                                 <h2>Go-To</h2>
                                 <ul>
-                                
-                                    <li><a href=""><i class="fa fa-angle-right"></i>About </a></li>
-                                    <li><a href=""><i class="fa fa-angle-right"></i>aidMe-Vitctims</a></li>
-                                    <li><a href=""><i class="fa fa-angle-right"></i>Donate to aidme</a></li>
-                                    <li><a href=""><i class="fa fa-angle-right"></i>Contact</a></li>
+
+                                    <li><a href="#about">About </a></li>
+                                    <li><a href="#aidmevictims">aidMe-Vitctims</a></li>
+                                    <li><a href="#aidmevictims">Donate to aidme</a></li>
+                                    <li><a href="#contact">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -335,36 +384,37 @@
                             <div class="footer-widgets ">
                                 <h2>Useful Pages</h2>
                                 <ul>
-                                    <li><a href=""><i class="fa fa-angle-right"></i>aidMe-Vitctims</a></li>
-                                    <li><a href=""><i class="fa fa-angle-right"></i>Donate to aidMe</a></li>
-                                    <li><a href=""><i class="fa fa-angle-right"></i>About </a></li>
-                                    <li><a href=""><i class="fa fa-angle-right"></i>Contact  Us</a></li>
+                                    <li><a href="#aidmevictims">aidMe-Vitctims</a></li>
+                                    <li><a href="#aidmevictims">Donate to aidMe</a>
+                                    </li>
+                                    <li><a href="#about">About </a></li>
+                                    <li><a href="">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
                         <!-- footer widgets -->
-                        
+
+                    </div>
                 </div>
-            </div>
-            <div class="main-footer-area bottom-footer">
-                <div class="container">
-                    <!-- copy right -->
-                    <div class="row">
-                        <div class="col-sm-12 text-center">
-                            &copy; Niniola
-           
+                <div class="main-footer-area bottom-footer">
+                    <div class="container">
+                        <!-- copy right -->
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                &copy; Niniola 2019
+
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-    
+
     </main>
-    
+    <script src="/js/all.js"></script>
     <script src="/js/jquery-3.3.1.slim.min.js"></script>
     <script src="/js/popper.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
 
-    
+
 </body>
 
 </html>

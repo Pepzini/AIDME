@@ -1,0 +1,16 @@
+@media (max-width: 767px){
+    .navbar-collapse{
+    text-align: center;
+    padding-left: 0;
+    background-color: black;
+    }
+
+    .navbar-collapse>ul>li>a{
+        border-bottom: 1px solid #38b1cf33;
+    }
+    .landing-page{
+        background-image: url(../images/image.png);
+        background-size: cover;
+        padding:2em 5em ;
+    }
+}

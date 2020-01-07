@@ -10,10 +10,8 @@ html{
 }
 
 /*Navigation bar*/
-nav{
+.navbar{
     background-color:#ffffff;
-    display: flex;
-    justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
@@ -22,35 +20,23 @@ nav{
 
 }
 
-
-nav a{
-    padding: 2em;
-}
-.nav-links{
-    float: right;
-    color: #000000;
-    padding:1em ;
-}
-.nav-logo img{
-    width:200px;
-    height:70px;
-}
-.nav-logo a:hover{
-    text-decoration: none;
-    color: #40e0d0;    
-}
-.nav-links a{
+#nav a{
     font-size: 19px;
     text-decoration: none;
     color: #000000;
+    padding: 0.5em 3em;
 }
-.nav-links a:hover{
+.navbar img{
+    width:200px;
+    height:50px;
+}
+
+#nav a:hover{
     text-decoration: none;
     color: #40e0d0;
 }
 
 /*This style below contains only the landing page
-
 There would be comment at where it stopped*/
 /*Landing page styling starts here*/
 
@@ -59,18 +45,13 @@ There would be comment at where it stopped*/
     background-size: cover;
     min-height: 95vh;
     padding:2em 5em ;
-    border: 1px solid transparent;
 }
 .landing-page p{
-    font-size: 60px;
+    font-size: 50px;
     color: #fff;
     padding-top: 5em;
     font-weight: bold;
-    -webkit-animation-name: lnd-pg-animate; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: lnd-pg-animate;
-    animation-duration: 4s;
-}
+}  
 
 .landpg-btn a{
     text-decoration: none;
@@ -93,7 +74,6 @@ There would be comment at where it stopped*/
 }
 /* Landing page styling stops here*/
 #about{
-    margin: em;
     min-height: 60vh;
 }
 .about-image{
@@ -120,17 +100,15 @@ There would be comment at where it stopped*/
 
 .clk button{
     margin: 2em;
-    margin-top: 5em;
     margin-left: 2em;
+    margin-top: 7em;
     background-color: #40e0d0;
     border: 3px solid #40e0d0;
     padding: 7px;
     font-weight: bold;
-    bottom: 40px;
-  
 }
 .clk{
-    
+    margin-top: 2em;
     box-shadow:0 1px 3px 0 #93e7df;
     padding: 2em 5em;
     cursor: pointer;
@@ -208,7 +186,8 @@ There would be comment at where it stopped*/
         padding: 12px;
         border: 1px solid #40e0d0;
         color: white;
-        bottom: 20px
+        bottom: 20px;
+        margin-left: 1em;
     }
       
   #volunteer h2{
@@ -256,11 +235,12 @@ There would be comment at where it stopped*/
   }
   .top-foot a,h2,p{
       padding: 10px;
+ 
   }
   .top-foot a{
       text-decoration: none;
       color: #ffffff;
-      padding: 12px;
+      padding: 2px;
       top: 20px;
   }
   .top-foot a:hover{
