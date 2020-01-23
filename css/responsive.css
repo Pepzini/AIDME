@@ -10,7 +10,25 @@
     }
     .landing-page{
         background-image: url(../images/image.png);
+        min-height: 20vh;
         background-size: cover;
-        padding:2em 5em ;
+        
+    }
+    .landpg-btn{
+        border: 1px solid #40e0d0;
+        margin-bottom: 2em;
+        margin-left: 2em;
+        background-color: #40e0d0;
+     }
+     .about-image{
+         float: none;
+         width: 100%;
+     }
+     .about-text{
+         margin-top: 0;
+        font-size: 20px;
+        text-align: justify;
+        color: #000000;
+        
     }
 }

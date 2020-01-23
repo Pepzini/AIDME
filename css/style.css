@@ -1,6 +1,7 @@
 
 body{
     margin: 0;
+    margin-right: 0;
     
 }
 html{
@@ -44,13 +45,13 @@ There would be comment at where it stopped*/
     background-image: url(../images/image.png);
     background-size: cover;
     min-height: 95vh;
-    padding:2em 5em ;
 }
 .landing-page p{
     font-size: 50px;
     color: #fff;
     padding-top: 5em;
     font-weight: bold;
+
 }  
 
 .landpg-btn a{
@@ -172,8 +173,18 @@ There would be comment at where it stopped*/
       background-color: #fff;
       cursor: pointer;
       border: 1px solid azure;
-      font-size: 22px;
-      
+      font-size: 22px; 
+  }
+  .ready{
+      background-image: url(../images/ready.png);
+      min-height: 40vh;
+      background-size: cover;
+  }
+  .ready p{
+      color: #ffffff;
+      font-size: 50px;
+      text-align: center;
+      margin-top: 2em;
   }
   #volunteer{
       min-height: 45vh; 
