@@ -171,6 +171,7 @@ There would be comment at where it stopped*/
       margin: 1em;
       text-align: center;
       background-color: #fff;
+      width: 100%;
       cursor: pointer;
       border: 1px solid azure;
       font-size: 22px; 
