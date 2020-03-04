@@ -2,12 +2,10 @@
     .navbar-collapse{
     text-align: center;
     padding-left: 0;
-    background-color: black;
+  
     }
 
-    .navbar-collapse>ul>li>a{
-        border-bottom: 1px solid #38b1cf33;
-    }
+   
     .landing-page{
         background-image: url(../images/image.png);
         min-height: 20vh;
@@ -20,17 +18,7 @@
         margin-left: 2em;
         background-color: #40e0d0;
      }
-     .about-image{
-         float: none;
-         width: 100%;
-     }
-     .about-text{
-         margin-top: 0;
-        font-size: 20px;
-        text-align: justify;
-        color: #000000;
-        
-    }
+    
     
 }
 @media (min-width: 767px){

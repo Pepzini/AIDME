@@ -18,18 +18,17 @@ html{
     left: 0;
     right: 0;
     z-index: 1000;
-
 }
 
 #nav a{
-    font-size: 19px;
+    font-size: 17px;
     text-decoration: none;
     color: #000000;
-    padding: 0.5em 3em;
+    padding: 0.5em 2.5em;
 }
 .navbar img{
     width:200px;
-    height:50px;
+    height:40px;
 }
 
 #nav a:hover{
@@ -44,7 +43,7 @@ There would be comment at where it stopped*/
 .landing-page{
     background-image: url(../images/image.png);
     background-size: cover;
-    min-height: 95vh;
+    min-height: 100vh;
 }
 .landing-page p{
     font-size: 50px;
