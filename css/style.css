@@ -43,7 +43,7 @@ There would be comment at where it stopped*/
 .landing-page{
     background-image: url(../images/image.png);
     background-size: cover;
-    min-height: 100vh;
+    min-height: 101vh;
 }
 .landing-page p{
     font-size: 50px;
