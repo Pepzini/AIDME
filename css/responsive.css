@@ -8,7 +8,6 @@
    
     .landing-page{
         background-image: url(../images/image.png);
-        min-height: 20vh;
         background-size: cover;
         
     }
